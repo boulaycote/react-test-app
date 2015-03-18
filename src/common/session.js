@@ -9,7 +9,7 @@ class Session {
   }
 
   isLoggedIn() {
-    return this._config.user ? true : false;
+  	return this._config.user ? true : false;
   }
 }
 

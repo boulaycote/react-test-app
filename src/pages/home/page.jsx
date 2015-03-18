@@ -1,6 +1,8 @@
 import React from "react";
 import { getData } from "../../common/request";
 
+import SampleComponent from "../../common/sample_component";
+
 
 let HomePage = React.createClass({
   statics: {
@@ -18,7 +20,7 @@ let HomePage = React.createClass({
 
     return (
       <div id="home-page">
-        <h1>{title}</h1>
+        <SampleComponent message={title} />
       </div>
     );
   }
