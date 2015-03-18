@@ -47,9 +47,7 @@ $ npm run server
 
 This leverages [React Hot Loader](https://github.com/gaearon/react-hot-loader) to automatically start a local dev server and refresh file changes on the fly without reloading the page.
 
-It also automatically includes source maps, allowing you to browse code and set breakpoints on the original ES6 code:
-
-![](https://www.dropbox.com/s/zgb3psadwcawjc8/Screenshot%202015-03-08%2017.09.53.png?dl=1)
+It also automatically includes source maps, allowing you to browse code and set breakpoints on the original ES6 code.
 
 ### build
 
